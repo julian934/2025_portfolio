@@ -25,8 +25,10 @@ const Gam3r_Network = () => {
                     
                     
                 </div>
-                <div className=' self-center  justify-self-center top-4' >
-                    <Image className='w-40 h-28' src={Logo} alt='Julian Borner Logo' />
+                <div className=' self-center md:relative  justify-self-center top-4 md:top-0' >
+                  <Link href='/homeRedux' >
+                    <Image className='w-40 h-28 md:scale-150  ' src={Logo} alt='Julian Borner Logo' />
+                    </Link>
                 </div>
                 
             </div>
