@@ -64,6 +64,10 @@ const HomeRedux = () => {
         <title>I am Julian</title>
         <meta name="description" content="The portfolio of Julian Borner" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Julian Borner – Portfolio" />
+        <meta property="og:description" content="The portfolio of Julian Borner" />
+        <meta property="og:url" content="https://2025-portfolio-39fracijm-julian934s-projects.vercel.app/homeRedux" />
+        <meta property="og:type" content="website" />
       </Head>
         <div className=' w-full static h-36 py-4 bg-white border-2 absolute' >
           <div className='flex justify-between w-full absolute' >
