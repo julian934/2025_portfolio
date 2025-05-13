@@ -19,7 +19,7 @@ import UH_logo from '@/app/utils/images/misc/University_of_Houston_seal.svg.png'
 import JSE_Cert from '@/app/utils/images/misc/jse_40_01.png'
 import gam3rs_img from '@/app/utils/images/misc/Gam3rs_Web_App.jpg'
 import etq_clone_img from '@/app/utils/images/misc/ETQ_Amsterdam_Clone.jpg'
-import test_bg from '@/app/utils/images/misc/test-background.jpg'
+//import test_bg from '@/app/utils/images/misc/test-background.jpg'
 //type Props = {}
 
 const HomeRedux = () => {
