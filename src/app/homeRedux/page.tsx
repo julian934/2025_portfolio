@@ -19,6 +19,8 @@ import UH_logo from '@/app/utils/images/misc/University_of_Houston_seal.svg.png'
 import JSE_Cert from '@/app/utils/images/misc/jse_40_01.png'
 import gam3rs_img from '@/app/utils/images/misc/Gam3rs_Web_App.jpg'
 import etq_clone_img from '@/app/utils/images/misc/ETQ_Amsterdam_Clone.jpg'
+import Head from 'next/head'
+
 //import test_bg from '@/app/utils/images/misc/test-background.jpg'
 //type Props = {}
 
@@ -35,6 +37,7 @@ const HomeRedux = () => {
     delay: 0.5,
     ease: [0, 0.71, 0.2, 1.01],
   }
+  
   const submitData=async(e:React.FormEvent<HTMLFormElement>)=>{
     e.preventDefault()
     /*
@@ -57,6 +60,11 @@ const HomeRedux = () => {
   }
   return (
     <div className='bg-white text-black' >
+      <Head>
+        <title>I am Julian</title>
+        <meta name="description" content="The portfolio of Julian Borner" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
         <div className=' w-full static h-36 py-4 bg-white border-2 absolute' >
           <div className='flex justify-between w-full absolute' >
             <div className='flex self-center px-4 ' >
