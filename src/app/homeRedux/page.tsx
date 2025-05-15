@@ -78,7 +78,7 @@ const HomeRedux = () => {
                     
                     {/*<Image className='w-24 h-24' src={JB_Profile_Pic} alt="Julian Borner Profile Pic" /> */}
                 </div>
-                <div className=' self-center relative  justify-self-center top-4 max-sm:-top-8 max-sm:-left-10 max-sm:absolute ' >
+                <div className=' self-center relative z-50 max-sm:z-0 justify-self-center top-4 lg:-top-2 max-sm:-top-8 max-sm:-left-10 max-sm:absolute ' >
                   <Link href='/homeRedux' >
                     <Image className='w-40  h-28 scale-150   ' src={Logo} alt='Julian Borner Logo' />
                     </Link>
@@ -108,7 +108,7 @@ const HomeRedux = () => {
         <div className='flex flex-col max-sm:relative max-sm:-left-4 justify-center w-full space-y-4 ' >
           <div className='flex max-sm:w-full flex-col md:self-center md:justify-self-center ' >
             <div className='relative  md:self-center sm:-top-36   ' >
-            <h1 className='flex text-yellow-600  max-sm:justify-center md:text-center text-6xl md:text-7xl lg:text-8xl md:top-60 lg:top-96 md:-left-20 max-sm:top-0 absolute  w-96 max-sm:w-full' >
+            <h1 className='flex text-yellow-600  max-sm:justify-center md:text-center text-6xl md:text-7xl lg:text-8xl md:top-60 lg:top-72 md:-left-20 lg:-left-28 max-sm:top-0 absolute  w-96 max-sm:w-full' >
               I am 
               </h1>
             </div>
@@ -145,8 +145,8 @@ const HomeRedux = () => {
             <div className='flex w-full max-sm:flex-col  ' >
                 <div className='flex flex-col p-4 w-1/2   max-sm:w-full' >
                     <Image className='flex max-sm:w-3/4 max-sm:h-3/4 max-sm:self-center rounded-sm md:rounded-md' src={JB_Profile_Pic} alt='Profile Pic' />
-                     <div className='flex flex-col   p-4 w-5/6 max-sm:w-full  bg-slate-100 rounded-md' >
-                         <div className='flex w-1/2 self-center justify-around ' >
+                     <div className='flex flex-col lg:justify-center  p-4 w-5/6 max-sm:w-full  bg-slate-100 rounded-md' >
+                         <div className='flex w-1/2  self-center justify-around  ' >
                             <Image className='w-44 h-44 max-sm:h-20 max-sm:w-20 ' src={UH_logo} alt='University of Houston Seal' />
                             <Image className='w-44 h-44  max-sm:h-20 max-sm:w-20 ' src={JSE_Cert} alt='JSE-40' />
                          </div>
@@ -264,7 +264,7 @@ const HomeRedux = () => {
 
             </div>
         </div>
-        <div className='h-screen space-y-4 ' id='contact' >
+        <div className='h-screen space-y-4 lg:space-y-6 ' id='contact' >
           <div className='flex flex-col self-center  ' >
             <h1 className=' self-center text-5xl text-yellow-600 ' >Contact</h1>
              <hr className=' self-center  w-1/5' />
