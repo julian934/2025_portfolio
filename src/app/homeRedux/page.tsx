@@ -78,9 +78,9 @@ const HomeRedux = () => {
                     
                     {/*<Image className='w-24 h-24' src={JB_Profile_Pic} alt="Julian Borner Profile Pic" /> */}
                 </div>
-                <div className=' self-center md:relative  justify-self-center top-4 md:top-0' >
+                <div className=' self-center relative  justify-self-center top-4 max-sm:-top-8 max-sm:-left-10 max-sm:absolute ' >
                   <Link href='/homeRedux' >
-                    <Image className='w-40 h-28 md:scale-150  ' src={Logo} alt='Julian Borner Logo' />
+                    <Image className='w-40  h-28 scale-150   ' src={Logo} alt='Julian Borner Logo' />
                     </Link>
                 </div>
                 
@@ -96,8 +96,8 @@ const HomeRedux = () => {
           </div>
         </div>
         <div className='h-screen flex ' id='/' >
-        <motion.div className='md:flex md:flex-col max-sm:relative max-sm:top-96 max-sm:h-28 max-sm:w-28 justify-start self-center max-sm:self-start z-50 bg-yellow-600 p-2 space-y-4  rounded-lg ml-4 '  >
-           <Link className='max-sm:relative hover:bg-white  max-sm:h-12 max-sm:w-28 rounded-md' href='https://github.com/julian934' >
+        <motion.div className='md:flex md:flex-col max-sm:relative max-sm:absolute  max-sm:top-96 max-sm:h-28 max-sm:w-60 justify-start self-center max-sm:self-start z-50 bg-yellow-600 p-2 space-y-4  rounded-lg ml-4 '  >
+           <Link className='max-sm:relative hover:bg-white max-sm:h-12 max-sm:w-36 rounded-md' href='https://github.com/julian934' >
             <Image className='max-sm:h-12 max-sm:w-28' src={GitHub} alt='gitHub' />
            </Link>
           <Link className='hover:bg-white rounded-md' href='https://www.linkedin.com/in/julian-borner-709b91b7/' >
@@ -105,26 +105,26 @@ const HomeRedux = () => {
           </Link>
           
         </motion.div>
-        <div className='flex flex-col max-sm:relative  justify-center w-full space-y-4 ' >
+        <div className='flex flex-col max-sm:relative max-sm:-left-4 justify-center w-full space-y-4 ' >
           <div className='flex max-sm:w-full flex-col md:self-center md:justify-self-center ' >
-            <div className='relative  md:self-center max-sm:-top-36  ' >
-            <h1 className='flex text-yellow-600  max-sm:justify-center md:text-center text-6xl md:text-7xl  md:top-60 md:-left-20 max-sm:top-20 absolute  w-96 max-sm:w-full' >
+            <div className='relative  md:self-center sm:-top-36   ' >
+            <h1 className='flex text-yellow-600  max-sm:justify-center md:text-center text-6xl md:text-7xl lg:text-8xl md:top-60 lg:top-96 md:-left-20 max-sm:top-0 absolute  w-96 max-sm:w-full' >
               I am 
               </h1>
             </div>
           
-          <div className='md:w-full max-sm:h-fit max-sm:w-screen md:relative md:-left-28 max-sm:-left-14  max-sm:relative   self-center  ' >
+          <div className='md:w-full max-w-[1500px] max-sm:h-fit max-sm:w-screen md:relative md:-left-28 max-sm:-left-14  max-sm:relative   self-center  ' >
           <Image className='md:w-full   md:h-full max-sm:scale-150 '  src={Logo} alt='Julian Borner Logo' />
           </div>
           </div>
             
-              <p className='flex max-sm:relative max-sm:top-28 self-center  max-sm:w-5/6 justify-self-center max-sm:justify-self-end text-xl' >A Result-Oriented Web Developer that specializes in 
+              <p className='flex max-sm:relative max-sm:top-28 self-center  max-sm:w-5/6 justify-self-center max-sm:justify-self-end text-xl lg:text-2xl lg:relative lg:-top-12' >A Result-Oriented Web Developer that specializes in 
                 building, managing and maintaining full-stack applications.
               </p>
-              <Link className=' shadow-lg hover:shadow-xl  hover:scale-125 max-sm:relative max-sm:top-48 justify-self-center self-center flex w-24 h-10 bg-yellow-600 text-center text-white rounded-lg' href='#projects'>
+              <Link className=' shadow-lg hover:shadow-xl  hover:scale-125 max-sm:relative max-sm:top-48 lg:relative lg:-top-8 justify-self-center self-center flex max-sm:w-32 max-sm:h-12 w-24 lg:w-28 h-10 bg-yellow-600 text-center text-white rounded-lg' href='#projects'>
                <h1 className='w-full  self-center flex text-center justify-center text-white md:text-lg' >Projects</h1>
                 </Link>
-              <motion.div className='flex justify-center self-center max-sm:relative max-sm:top-60 md:-top-10' transition={transition} >
+              <motion.div className='flex justify-center self-center max-sm:relative max-sm:top-60 md:-top-10 lg:relative lg:-top-4' transition={transition} >
                 <Link href='#about' >
                 
                 <Image className='flex hover:scale-125 bg-yellow-600 rounded-lg hover:bg-white ' src={DownwardArrow} alt='Downward Arrow' />
@@ -139,7 +139,7 @@ const HomeRedux = () => {
             <div className='flex flex-col self-center w-full p-4  space-y-2 ' >
                <h1 className='flex justify-center self-center text-yellow-600 text-5xl' >About Me</h1>
                   <hr className='flex self-center w-60 bg-black ' />
-                 <p className='flex w-1/3 max-sm:w-5/6 self-center text-lg ' >Here you will find more information about me, what I do, and my current skills mostly in terms 
+                 <p className='flex w-1/3 max-sm:w-5/6 self-center text-lg lg:text-xl ' >Here you will find more information about me, what I do, and my current skills mostly in terms 
                     of programming and technology.</p> 
             </div>
             <div className='flex w-full max-sm:flex-col  ' >
@@ -161,7 +161,7 @@ const HomeRedux = () => {
                 </div>
                 <div className='flex flex-col space-y-2  w-1/2 max-sm:w-full p-4' >
                     <h1 className='flex self-center text-yellow-600 text-3xl' >Get to know me!</h1>
-                    <p className='flex self-center text-lg max-sm:text-wrap md:px-10 ' >I graduated from the University of Houston in August of 2023 with a Bachelor&apos;s of Science in Digital Media from 
+                    <p className='flex self-center text-lg max-sm:text-wrap md:px-10 lg:text-xl ' >I graduated from the University of Houston in August of 2023 with a Bachelor&apos;s of Science in Digital Media from 
                       the Cullen College of Engineering and received my certification for entry-level web development from the JavaScript Institute. I specialize in full-stack web development using React and Next.js, and UI/UX design 
                        using Figma. I create and build functional web applications and intuitive User Interfaces that generate revenue for your business, helping it grow exponentially. I&apos;m open to Job opportunities where I 
                        can contribute, learn and grow within your organization. If you want to work with me, don&apos;t hesitate to contact me.    
@@ -231,7 +231,7 @@ const HomeRedux = () => {
 
             </div>
         </div>
-        <div className='h-screen ' id='projects' >
+        <div className='md:h-screen ' id='projects' >
             
             <div className='flex flex-col self-center w-full p-4  space-y-2 ' >
               <h1 className='flex justify-center self-center text-yellow-600 text-5xl' >Projects</h1>
@@ -245,8 +245,8 @@ const HomeRedux = () => {
                    
                      <Image className='w-1/2 max-sm:w-full border-2 rounded-md' src={etq_clone_img} width={1000} height={1000} quality={100} alt='ETQ-Amsterdam Clone' /> 
                      <div className='flex flex-col self-center space-y-4 ' >
-                        <h1 className='text-center text-2xl text-yellow-600 ' >ETQ-Amsterdam Clone</h1>
-                        <p className='w-4/5 self-center ' > The ETQ-Amsterdam Clone is a clone of the pre-existing ETQ-Amsterdam webshop. This site features a full ecommerce suite, such as user sign-in/sign-up, purchasing 
+                        <h1 className='text-center text-2xl text-yellow-600 lg:text-3xl' >ETQ-Amsterdam Clone</h1>
+                        <p className='w-4/5 self-center lg:text-lg' > The ETQ-Amsterdam Clone is a clone of the pre-existing ETQ-Amsterdam webshop. This site features a full ecommerce suite, such as user sign-in/sign-up, purchasing 
                           products and even adding items to your wishlist. This site was built using Next.js, Stripe and TypeScript. </p>
                         <Link className=' shadow-lg hover:shadow-xl hover:scale-125  justify-self-center self-center flex w-32 h-10 bg-yellow-600 text-center text-white rounded-lg' href='/projects/webdev/etq_clone'> <h1 className='w-full  self-center flex text-center justify-center text-white' >View Project</h1> </Link>
                      </div>
@@ -255,8 +255,8 @@ const HomeRedux = () => {
                     
                     <Image className='w-1/2 max-sm:w-full border-2 rounded-md' src={gam3rs_img} width={1000} height={1000} quality={100} alt='Gam3r Network' /> 
                      <div className='flex flex-col self-center space-y-4' >
-                        <h1 className='text-center text-2xl text-yellow-600 ' >The Gam3r Network</h1>
-                        <p className='w-4/5 self-center' >The Gam3r Network is a companion website to The Gam3r Network YouTube channel that features video creation and upload, 
+                        <h1 className='text-center text-2xl text-yellow-600 lg:text-3xl' >The Gam3r Network</h1>
+                        <p className='w-4/5 self-center lg:text-lg ' >The Gam3r Network is a companion website to The Gam3r Network YouTube channel that features video creation and upload, 
                           chat forums and free games. The Gam3r Network site was built using Next.js, Node and TypeScript. </p>
                         <Link className=' shadow-lg hover:shadow-xl hover:scale-125  justify-self-center self-center flex w-32 h-10 bg-yellow-600 text-center text-white rounded-lg' href='/projects/webdev/gam3r_network'> <h1 className='w-full  self-center flex text-center justify-center text-white' >View Project</h1> </Link>
                      </div>
@@ -268,11 +268,11 @@ const HomeRedux = () => {
           <div className='flex flex-col self-center  ' >
             <h1 className=' self-center text-5xl text-yellow-600 ' >Contact</h1>
              <hr className=' self-center  w-1/5' />
-              <p className=' self-center max-sm:w-5/6' >Feel free to contact me using the form below! I&apos;d love to work with you! </p>
+              <p className=' self-center max-sm:w-5/6 lg:text-lg' >Feel free to contact me using the form below! I&apos;d love to work with you! </p>
 
           </div>
           <div className='flex justify-self-center rounded-md  w-3/4 h-3/4 max-sm:w-full max-sm:h-full bg-slate-100 ' >
-            <form className='h-full w-full self-center  flex flex-col p-4 space-y-20 ' onSubmit={submitData} ref={formRef} >
+            <form className='h-full w-full self-center  flex flex-col p-4 space-y-20  ' onSubmit={submitData} ref={formRef} >
               <div className='w-1/2 max-sm:w-full self-center' >
               <h1 className='text-lg' >Name</h1>
               <input className='p-4 bg-slate-200 rounded-md w-full' placeholder='Enter Your Name' ref={userRef} name="user_name"/>
