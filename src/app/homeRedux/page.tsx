@@ -95,17 +95,17 @@ const HomeRedux = () => {
 
           </div>
         </div>
-        <div className='h-screen flex ' id='/' >
-        <motion.div className='md:flex md:flex-col max-sm:relative max-sm:absolute  max-sm:top-96 max-sm:h-28 max-sm:w-60 justify-start self-center max-sm:self-start z-50 bg-yellow-600 p-2 space-y-4  rounded-lg ml-4 '  >
-           <Link className='max-sm:relative hover:bg-white max-sm:h-12 max-sm:w-36 rounded-md' href='https://github.com/julian934' >
-            <Image className='max-sm:h-12 max-sm:w-28' src={GitHub} alt='gitHub' />
+        <div className='h-screen md:flex   ' id='/' >
+        <motion.div className='md:flex md:flex-col max-sm:relative max-sm:absolute  max-sm:top-40 max-sm:left-4 max-sm:h-36 max-sm:w-16 md:justify-start md:self-center md:self-start z-50 bg-yellow-600 md:p-2 md:space-y-4  border-2 rounded-lg md:ml-4 '  >
+           <Link className='max-sm:relative max-sm:absolute hover:bg-white max-sm:h-12  max-sm:w-28 rounded-md max-sm:top-4' href='https://github.com/julian934' >
+            <Image className='max-sm:h-12 max-sm:w-16' src={GitHub} alt='gitHub' />
            </Link>
-          <Link className='hover:bg-white rounded-md' href='https://www.linkedin.com/in/julian-borner-709b91b7/' >
-            <Image className='max-sm:h-full max-sm:w-full' src={LinkedIn} alt='LinkedIn' />
+          <Link className=' max-sm:relative max-sm:absolute  max-sm:top-2  hover:bg-white max-sm:h-12 max-sm:w-28 rounded-md' href='https://www.linkedin.com/in/julian-borner-709b91b7/' >
+            <Image className='max-sm:h-12 max-sm:w-16 ' src={LinkedIn} alt='LinkedIn' />
           </Link>
           
         </motion.div>
-        <div className='flex flex-col max-sm:relative max-sm:-left-4 justify-center w-full space-y-4 ' >
+        <div className='flex flex-col max-sm:relative max-sm:left-0 justify-center w-full max-sm:top-48 space-y-4 ' >
           <div className='flex max-sm:w-full flex-col md:self-center md:justify-self-center ' >
             <div className='relative  md:self-center sm:-top-36   ' >
             <h1 className='flex text-yellow-600  max-sm:justify-center md:text-center text-6xl md:text-7xl lg:text-8xl md:top-60 lg:top-72 md:-left-20 lg:-left-28 max-sm:top-0 absolute  w-96 max-sm:w-full' >
@@ -113,12 +113,12 @@ const HomeRedux = () => {
               </h1>
             </div>
           
-          <div className='md:w-full max-w-[1500px] max-sm:h-fit max-sm:w-screen md:relative md:-left-28 max-sm:-left-14  max-sm:relative   self-center  ' >
+          <div className='md:w-full max-w-[1500px] max-sm:h-fit max-sm:w-screen md:relative md:-left-28 max-sm:-left-10  max-sm:relative   self-center  ' >
           <Image className='md:w-full   md:h-full max-sm:scale-150 '  src={Logo} alt='Julian Borner Logo' />
           </div>
           </div>
             
-              <p className='flex max-sm:relative max-sm:top-28 self-center  max-sm:w-5/6 justify-self-center max-sm:justify-self-end text-xl lg:text-2xl lg:relative lg:-top-12' >A Result-Oriented Web Developer that specializes in 
+              <p className='flex max-sm:relative max-sm:top-28 self-center max-sm:left-4  max-sm:w-5/6 justify-self-center max-sm:justify-self-end text-xl lg:text-2xl lg:relative lg:-top-12' >A Result-Oriented Web Developer that specializes in 
                 building, managing and maintaining full-stack applications.
               </p>
               <Link className=' shadow-lg hover:shadow-xl  hover:scale-125 max-sm:relative max-sm:top-48 lg:relative lg:-top-8 justify-self-center self-center flex max-sm:w-32 max-sm:h-12 w-24 lg:w-28 h-10 bg-yellow-600 text-center text-white rounded-lg' href='#projects'>
